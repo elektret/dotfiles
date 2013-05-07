@@ -1,0 +1,5 @@
+[user]
+  name = mx
+  email = mx@elektret.de
+[diff]
+  tool = vimdiff
