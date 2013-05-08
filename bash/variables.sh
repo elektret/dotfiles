@@ -1,6 +1,6 @@
-export LC_ALL=de_DE.UTF-8
-export LC_CTYPE=de_DE.UTF-8
-export LANG=de_DE.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
 export TERM=rxvt-unicode
 export EDITOR=vim
 export RUBY_VERSION=`ruby --version | sed 's/ruby \([0-9]*\.[0-9]*\).*/\1/'`
