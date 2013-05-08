@@ -8,3 +8,6 @@
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
+
+# Ugly but unsure what to do in GDM. Help ...
+[ -r "$HOME/.profile" ] && source "$HOME/.profile"
