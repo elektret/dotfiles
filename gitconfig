@@ -3,3 +3,5 @@
   email = mx@elektret.de
 [diff]
   tool = vimdiff
+[push]
+  default = simple
