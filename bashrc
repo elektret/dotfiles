@@ -1,4 +1,5 @@
 # .bashrc
+
 # Check for an interactive session
 # if not running interactively, don't do anything
 [[ $- != *i* ]] && return
