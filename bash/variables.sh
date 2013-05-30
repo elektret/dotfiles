@@ -4,5 +4,5 @@ export LANG=en_US.UTF-8
 export TERM=rxvt-unicode
 export EDITOR=vim
 export RUBY_VERSION=`ruby --version | sed 's/ruby \([0-9]*\.[0-9]*\).*/\1/'`
-export GEM_HOME=~/gems/$RUBY_VERSION
-export PATH=$HOME/.local/bin:$HOME/bin:$PATH
+export GEM_HOME=$HOME/gems/$RUBY_VERSION
+export PATH=$GEM_HOME/bin:$HOME/.local/bin:$HOME/bin:$PATH
