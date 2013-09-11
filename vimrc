@@ -1,5 +1,5 @@
 syntax on
-colorscheme moria
+colorscheme jellybeans
 set number
 set history=50
 set bs=indent,eol,start

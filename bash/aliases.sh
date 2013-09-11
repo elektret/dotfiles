@@ -8,3 +8,5 @@ alias log='git log --pretty="format:%C(yellow)%h%C(green)%d %C(white)%s %C(cyan)
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 alias size='du -sh'
+alias chrome='google-chrome --cipher-suite-blacklist=0x0004,0x0005,0xc01'
+alias google-chrome='google-chrome --cipher-suite-blacklist=0x0004,0x0005,0xc01'
