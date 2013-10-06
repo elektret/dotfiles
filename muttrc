@@ -38,6 +38,7 @@ set prompt_after=no
 set mail_check=60
 set header_cache="~/.mutt/hcache"
 set alias_file="~/.mutt/aliases"
+set signature="~/.mutt/signature"
 
 set smtp_url="smtp://manuel@mail.elektret.de:587"
 #set smtp_pass='dont save a password here'
