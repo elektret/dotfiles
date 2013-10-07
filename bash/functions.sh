@@ -44,3 +44,7 @@ function mkdir_dev {
 function rgrep {
   find -L . -type f -name \*.rb -exec grep -n -i -H --color "$1" {} \;
 }
+
+function qrand {
+  echo `cat /dev/urandom | base91 | head -1`
+}
