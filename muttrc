@@ -35,7 +35,7 @@ set move=no
 set save_empty=no
 set prompt_after=no
 
-set mail_check=60
+set mail_check=5
 set header_cache="~/.mutt/hcache"
 set alias_file="~/.mutt/aliases"
 set signature="~/.mutt/signature"
