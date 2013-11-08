@@ -4,3 +4,4 @@ send-hook . 'unmy_hdr Fcc:'
 
 send-hook '~t ^postfix-users' 'my_hdr Reply-To: postfix-users@postfix.org'
 send-hook '~t ^hirntmr@listi.jpberlin.de' 'my_hdr Reply-To: hirntmr@listi.jpberlin.de'
+send-hook '~t ^baseband-devel@lists.osmocom.org' 'my_hdr Reply-To: baseband-devel@lists.osmocom.org'

@@ -1,8 +1,8 @@
 set realname="Manuel Bieling"
-set hostname="localhost"
+set hostname="mail.localhost"
 
 set from="manuel@elektret.de"
-set folder="imaps://manuel@mail.elektret.de/"
+set folder="imaps://manuel@mail.elektret.de"
 set spoolfile="imaps://manuel@mail.elektret.de/inbox"
 set mbox="+inbox"
 set postponed="+Drafts"
@@ -14,6 +14,7 @@ set forw_format="Fwd: %s"
 set indent_str="> "
 set editor="vim"
 set sort="threads"
+set send_charset="us-ascii:utf-8"
 
 set allow_8bit=yes
 set include=yes
@@ -36,6 +37,8 @@ set save_empty=no
 set prompt_after=no
 
 set mail_check=5
+set sleep_time=0
+
 set header_cache="~/.mutt/hcache"
 set alias_file="~/.mutt/aliases"
 set signature="~/.mutt/signature"
