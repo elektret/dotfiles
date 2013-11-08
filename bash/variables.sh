@@ -9,4 +9,4 @@ export HISTSIZE=2000
 export RUBY_VERSION=`ruby --version | sed 's/ruby \([0-9]*\.[0-9]*\).*/\1/'`
 export GEM_HOME=$HOME/gems/$RUBY_VERSION
 export NPM_HOME=$HOME/npm
-export PATH=$GEM_HOME/bin:$NPM_HOME/bin:$HOME/.local/bin:$HOME/bin:$PATH
+export PATH=$GEM_HOME/bin:$NPM_HOME/bin:$HOME/bin:$PATH
