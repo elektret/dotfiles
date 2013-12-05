@@ -23,7 +23,8 @@ function chmod_archive {
 
 # Copy dotfiles
 function copy_dotfiles {
-  for object in `find ~/repos/dotfiles -maxdepth 1 -name \[a-z]*`; do
+  for object in `find ~/repos/dotfiles -maxdepth 1 -name \[a-z]*`
+  do
     [ -r ~/.`basename $object` ] && rm -rf ~/.`basename $object`
     cp -rva $object ~/.`basename $object` && [ -f $object ] && chmod a-x ~/.`basename $object`
     chmod go-rwx ~/.`basename $object`
@@ -32,12 +33,9 @@ function copy_dotfiles {
 
 # Build mount structure
 function mkdir_dev {
-  for i in a b c d e f
+  for i in {a..f}
   do
-    for j in 1 2 3 4
-    do
-      mkdir sd$i$j
-    done
+    mkdir sd$i{1..4}
   done
 }
 
@@ -47,7 +45,6 @@ function rgrep {
 }
 
 function qrand {
-  which base91 &> /dev/null
-  [ $? -eq 0 ] && base="base91" || base="base64"
+  which base91 &> /dev/null && base="base91" || base="base64"
   echo `cat /dev/urandom | $base | head -1`
 }
