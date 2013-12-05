@@ -4,7 +4,7 @@ set history=50
 set bs=indent,eol,start
 set ai
 set ic
-set tw=75
+set tw=70
 set colorcolumn=80
 set background=dark
 colorscheme jellybeans
