@@ -33,10 +33,7 @@ function copy_dotfiles {
 
 # Build mount structure
 function mkdir_dev {
-  for i in {a..f}
-  do
-    mkdir sd$i{1..4}
-  done
+  mkdir sd{a..f}{1..4}
 }
 
 # Find expression in Ruby files
